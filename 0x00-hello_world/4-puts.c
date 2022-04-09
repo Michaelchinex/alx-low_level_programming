@@ -1,5 +1,4 @@
 #include <sudio.h>
-
 /**
  * main - Entry point
  *
