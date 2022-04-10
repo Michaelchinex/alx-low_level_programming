@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-printf("with power grammar, but the outcome is a piece of art,\n");
+printf("\"with power grammar, but the outcome is a piece of art");
 return (0);
 }
