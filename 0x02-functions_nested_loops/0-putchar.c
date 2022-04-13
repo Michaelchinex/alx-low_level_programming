@@ -7,6 +7,7 @@
 int main(void)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 char ermias[] = "_putchar";
 int c;
 for (c = 0; c < 8; c++)
@@ -14,6 +15,9 @@ for (c = 0; c < 8; c++)
 _putchar(ermias[c]);
 =======
 char erimas[]="_putchar"; 
+=======
+char erimas[] = "_putchar"; 
+>>>>>>> 42831d6370dfd8560eea474de2a1a009d835cddb
 int c;
 for (c = 0; c < 8; c++)
 {
