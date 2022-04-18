@@ -1,10 +1,10 @@
-#include <stdlib>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
-*main - Determine if the last digits of a number is greater than 5
+*main - Determine if the last digit of a number is greater than 5
 *less than 6 or zero
-*Return: Always (success)
+*Return: Always (Success)
 */
 int main(void)
 {
@@ -19,6 +19,7 @@ printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
 else if (lastd == 0)
 {
 printf("Last digit of %d is %d and is 0\n", n, lastd);
+
 }
 else if (lastd < 6 && lastd != 0)
 {
