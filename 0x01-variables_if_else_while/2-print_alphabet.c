@@ -6,11 +6,9 @@
 */
 int main(void)
 {
-int alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-putchar(alphabet);
-}
+char c;
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
 putchar("\n");
 return (0);
 }
