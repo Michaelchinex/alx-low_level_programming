@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - Write a program that prints alphabet in 
+*main - Write a program that prints alphabet in
 *lowercase
 *Return: Always (Success)
 */
