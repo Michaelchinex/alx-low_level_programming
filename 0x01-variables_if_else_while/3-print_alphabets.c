@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
-* main - print alphabet in lowercase
-* and uppercase
-* Return: Always (Sucicess)
+* main - Entry - point
+* Return: Always (Success)
 */
 int main(void)
 {
@@ -17,4 +16,5 @@ for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 putchar (upper_case);
 }
 putchar('\n');
- return (0);
+return (0);
+}
