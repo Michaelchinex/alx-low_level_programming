@@ -3,8 +3,6 @@
 /**
 * main - Entry point
 */
-int main(void)
-{
 void print_alphabet(void)
 {
 char alphabet;
