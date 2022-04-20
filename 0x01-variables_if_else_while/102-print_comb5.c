@@ -17,12 +17,12 @@ for (j = 48; j <= 57; j++)
 {
 for (k = 48; k <= 57; k++)
 {
-if (((kv+ j) > (c + i) && k >= c) || c < k)
+if (((k + j) > (c + i) && k >= c) || c < k)
 {
 putchar(c);
 putchar(i);
 putchar(' ');
-putcahr(j);
+putchar(j);
 putchar(k);
 if (c + i + j + k == 227 && c == 57)
 {
@@ -38,6 +38,6 @@ putchar(' ');
 }
 }
 }
-putcahr('\n');
-return (o);
+putchar('\n');
+return (0);
 }
