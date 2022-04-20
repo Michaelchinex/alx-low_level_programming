@@ -6,7 +6,7 @@
 int main(void)
 {
 char alphabet;
-for (alphabets = 'a'; alphabet <= 'z; alphabet++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 if (alphabet == 'q')
 continue;
@@ -15,4 +15,5 @@ continue;
 putchar(alphabet);
 }
 putchar('\n')
-return (0);
+ return (0);
+}
