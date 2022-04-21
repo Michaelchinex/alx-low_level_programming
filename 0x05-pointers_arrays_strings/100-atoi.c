@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* main - converts a string to an integer
-*
+* _atoi - converts a string to an integer
 * @s: string
 * Return:integer 0 - no int
 */
