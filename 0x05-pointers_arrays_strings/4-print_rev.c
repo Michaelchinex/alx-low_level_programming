@@ -13,9 +13,10 @@ int n;
 {
 for (i = 0; s[i] != '\0'; i++)
 }
+i++
 for (n = i - 1; n >= 0; n--)
 {
-putchar(s[i]);
+putchar(s[n]);
 }
 putchar('\n');
 }
