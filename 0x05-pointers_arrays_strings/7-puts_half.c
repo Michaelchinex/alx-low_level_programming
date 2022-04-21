@@ -21,7 +21,7 @@ _putchar(str[i]);
 }
 }
 else
-{	
+{
 half = (length - 1) / 2;
 for (i = half + 1; i < length; i++)
 {
