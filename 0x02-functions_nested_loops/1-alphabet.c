@@ -2,12 +2,14 @@
 #include <stdio.h>
 /**
 * main - Entry point
+* Return: Always (Success)
 */
 void print_alphabet(void)
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-putchar(alphabet);
-putchar('\n');
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
 }
+_putchar('\n');
 }
