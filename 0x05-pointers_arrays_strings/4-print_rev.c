@@ -12,8 +12,8 @@ int i;
 int n;
 {
 for (i = 0; s[i] != '\0'; i++)
+i++;
 }
-i++
 for (n = i - 1; n >= 0; n--)
 {
 putchar(s[n]);
