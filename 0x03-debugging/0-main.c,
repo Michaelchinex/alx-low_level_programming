@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "main.h"
+/**
+*main - tests function with zero
+*Description:testing with zero
+*Return:Returns Always (success)
+*/
+int main(void)
+{
+int i = 0;
+positive_or_negative(i);
+return (0);
+}
