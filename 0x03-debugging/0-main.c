@@ -1,13 +1,13 @@
-#include <stdio.h>
 #include "main.h"
 /**
-*main - tests function with zero
-*Description:postive_or_negative
-*Return: Always (success)
+* main - tests function that prints if integer is positive or negative
+* Description:postive_or_negative
+* Return: 0
 */
 int main(void)
 {
-int i = 0;
+int i;
+i = 0;
 positive_or_negative(i);
 return (0);
 }
