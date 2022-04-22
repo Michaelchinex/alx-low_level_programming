@@ -1,9 +1,9 @@
-#include <stdio.h>
+
 #include "main.h"
 /**
 *main - tests function with zero
-*Description:testing with zero
-*Return:Returns Always (success)
+*Description:postive_or_negative
+*Return: Always (success)
 */
 int main(void)
 {
