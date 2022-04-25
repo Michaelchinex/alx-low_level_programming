@@ -1,46 +1,46 @@
+#include <stdlib.h>
+#include <string.h>
 #include "main.h"
-#include <stdio.h>
 /**
-* infinite_add - adds two numbers
-* @n1: first number
-* @n2: second number
-* @r: buffer for result
-* @size_r: buffer size
+* infinite_add - Adds to numbers in a string
+* @n1: The number
+* @n2: The number
+* @r: The result
+* @size_r: The qty
 *
-* Return: address of r or 0
+* Return: none
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-int i, j, k, l, m, n;
-for (i = 0; n1[i]; i++)
-;
-for (j = 0; n2[j]; j++)
-;
-if (i > size_r || j > size_r)
+char t;
+int  i, j, k, size_1, size_2, a, b, c =  0;
+size_1 = strlen(n1);
+size_2 = strlen(n2);
+if (size_1 > (size_r - 1) || size_2 > (size_r - 1))
 return (0);
-m = 0;
-for (i -= 1, j -= 1, k = 0; k < size_r - 1; i--, j--, k++)
+for (i = --size_1, j = --size_2, k = 0; i >= 0 || j >= 0; k++)
 {
-n = m;
 if (i >= 0)
-n += n1[i] - '0';
+a = n1[i--] - 48;
+else
+a = 0;
 if (j >= 0)
-n += n2[j] - '0';
-if (i < 0 && j < 0 && n == 0)
-{
-break;
-}
-m = n / 10;
-r[k] = n % 10 + '0';
-}
-r[k] = '\0';
-if (i >= 0 || j >= 0 || m)
+b = n2[j--] - 48;
+else
+b = 0;
+r[k] = (a + b + c) % 10 + 48;
+c = (a + b + c) / 10;
+if (k >= (size_r - 2))
 return (0);
-for (k -= 1, l = 0; l < k; k--, l++)
+}
+if (c > 0)
+r[k++] = c + 48;
+r[k] = '\0';
+for (i = 0; i < (k / 2); i++)
 {
-m = r[k];
-r[k] = r[l];
-r[l] = m;
+t = r[i];
+r[i] = r[k - i - 1];
+r[k - i - 1] = t;
 }
 return (r);
 }
