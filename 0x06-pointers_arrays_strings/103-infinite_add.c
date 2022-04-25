@@ -1,7 +1,7 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "main.h"
-
 /**
  * infinite_add - Adds to numbers in a string
  * @n1: The number
